@@ -1,0 +1,27 @@
+.cardlist-container {
+  width: 80%;
+  margin: auto;
+  text-align: start;
+}
+
+.card-enter {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.card-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 400ms ease-in-out;
+}
+
+.card-exit {
+  opacity: 1;
+}
+
+.card-exit-active {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 400ms ease-in-out;
+}

@@ -1,0 +1,21 @@
+.route-enter {
+  transform: translateY(-100vh);
+  opacity: 0.1;
+  transition: all 800ms;
+}
+
+.route-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.route-exit {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 800ms;
+}
+
+.route-exit-active {
+  transform: translateY(100vh);
+  opacity: 0.1;
+}

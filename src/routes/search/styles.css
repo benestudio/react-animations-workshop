@@ -1,0 +1,14 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  width: 100%;
+}
+
+.app-searchbar {
+  width: 33%;
+  margin: auto;
+}

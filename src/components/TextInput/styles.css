@@ -1,0 +1,20 @@
+.textinput-container {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.textinput-container label {
+  color: rgba(255, 255, 255, .8);
+  width: 100%;
+}
+
+.textinput-container input {
+  border: 0px;
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+}

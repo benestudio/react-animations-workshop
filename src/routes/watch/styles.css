@@ -1,0 +1,10 @@
+.watch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.watch-container iframe {
+  background-color: black;
+}

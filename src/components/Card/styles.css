@@ -1,0 +1,60 @@
+.card-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 225px;
+  margin: 15px;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  border-radius: 2px;
+}
+
+.card-image {
+  position: absolute;
+  width: 100%;
+  transition: all 3000ms ease-out;
+  transform: scale(1) translateY(0);
+  transform-origin: 50% 16%;
+}
+
+.card-container:hover .card-image {
+  transform: scale(1.15) translateY(-15px);
+  transform-origin: top;
+}
+
+.card-controls {
+  opacity: 0;
+  transition: opacity 500ms;
+  background-color: rgba(255, 255, 255, .3);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container:hover .card-controls {
+  opacity: 1;
+}
+
+.card-remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card-play {
+  cursor: pointer;
+  font-size: 80px;
+}
+
+.card-controls a {
+  text-decoration: none;
+  color: white;
+}
